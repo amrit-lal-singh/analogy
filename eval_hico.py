@@ -12,7 +12,7 @@ import numpy as np
 import time
 import argparse
 import os.path as osp
-import cPickle as pickle
+import _pickle as pickle
 from utils import Parser
 from datasets.hico_api import Hico
 from datasets.BaseLoader import TestSampler
